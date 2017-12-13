@@ -1,0 +1,10 @@
+func: function boolean (x: boolean, y: boolean) = {
+	return x && y;
+}
+
+main: function integer () = {
+	print func(true, false), "\n";
+	print !true, "\n";
+	print 3 < 3, "\n";
+	return 0;
+}

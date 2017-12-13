@@ -1,0 +1,16 @@
+i: integer = 3;
+c: char = 'b';
+s: string = "hello ryan smick is the man";
+b: boolean = true;
+a: array [5] integer = {1, 2, 3, 4, 5};
+
+func: function integer (x: integer, y: integer) = {
+	a[2] = 86;
+	print a[1], " ", a[2], "\n";
+	return a[2];
+
+}
+
+main: function integer () = {
+	return func(2, 27);
+}

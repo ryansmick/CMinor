@@ -1,0 +1,15 @@
+main: function integer (argc: integer, argv: array [] string) = {
+
+	print argc, "\n";
+	print argc+5, "\n";
+	print argc-3, "\n";
+	print 2 ^ 5, "\n";
+	print 184 / 17, "\n";
+	print 184 / -17, "\n";
+	print -184 / 17, "\n";
+	print -184 / -17, "\n";
+	print 184 % 17, "\n";
+	print 184 * 17, "\n";
+	return 0;
+
+}

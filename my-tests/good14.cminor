@@ -1,0 +1,15 @@
+main: function void () = {
+
+
+	x: integer;
+	for(x=0; ; ) {
+
+		if(x > 10) {
+			return;
+		}
+		x++;
+
+	}
+
+
+}

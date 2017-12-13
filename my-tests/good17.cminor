@@ -1,0 +1,5 @@
+main: function integer () = {
+
+	return 234 * 7239 + 2847 % 10 - 27 / 738;
+
+}

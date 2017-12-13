@@ -1,0 +1,9 @@
+func: function integer(x: integer, y: integer, z: integer) = {
+	x = 2 / 1;
+	return z;
+}
+
+main: function void () = {
+	print func(1, 2, 3), "\n";
+	return;
+}

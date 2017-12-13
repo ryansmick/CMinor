@@ -1,0 +1,19 @@
+test_func: function integer(x: integer, y: integer, z: integer) = {
+
+	a: integer = 4;
+	b: integer = 5;
+	c: integer = 6;
+
+	print x, "\n";
+	print y, "\n";
+	print z, "\n";
+
+	return 0;
+
+}
+
+main: function integer () = {
+
+	return test_func(1, 2, 3);
+
+}

@@ -1,0 +1,24 @@
+a: array [10] integer = {1, 10, 2, 9, 3, 8, 4, 7, 5, 6};
+
+insertion_sort: function void (arr: array [] integer, n: integer) = {
+	i: integer;
+	key: integer;
+	j: integer;
+	for (i = 1; i < n; i++) {
+		key = arr[i];
+		j = i-1;
+ 
+		for ( ; j >= 0 && arr[j] > key; ) {
+			arr[j+1] = arr[j];
+			j = j-1;
+		}
+		arr[j+1] = key;
+	}
+}
+
+main: function integer () = {
+
+	insertion_sort(a, 10);
+	print a[1], "\n";
+
+}

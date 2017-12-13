@@ -1,0 +1,10 @@
+main: function integer () = {
+
+	print 'a' != 'a', "\n";
+	print 1 != 2, "\n";
+	print true != true, "\n";
+	print "hello world" != "hello \0world", "\n";
+
+	return 0;
+
+}

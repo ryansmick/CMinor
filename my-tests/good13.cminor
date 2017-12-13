@@ -1,0 +1,12 @@
+func: function string (a: integer, b: integer, c: integer, d: integer) = {
+
+	print c, "\n";
+
+}
+
+main: function integer () = {
+
+	func(1, 2, 200, 1*2);
+	return 0;
+
+}

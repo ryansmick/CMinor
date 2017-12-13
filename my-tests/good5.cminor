@@ -1,0 +1,10 @@
+main: function integer () = {
+
+	print 'a' == 'b', "\n";
+	print 1 == 1, "\n";
+	print true == false, "\n";
+	print "hello world" == "hello world", "\n";
+
+	return 0;
+
+}

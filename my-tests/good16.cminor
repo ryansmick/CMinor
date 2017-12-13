@@ -1,0 +1,13 @@
+a: array [5] integer = {1, 2, 3, 4, 5};
+
+prototype: function array [] integer ();
+
+main: function integer () = {
+
+	print a[2];
+
+}
+
+prototype: function array [] integer () = {
+	return a;
+}

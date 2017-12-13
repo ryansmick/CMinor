@@ -1,0 +1,25 @@
+main: function integer () = {
+
+	if (2 < 3) {
+		print "This should print\n";
+	}
+	else {
+		print "This should not print\n";
+	}
+
+	if (3 < 2) {
+		print "This should not print\n";
+	}
+	else {
+		print "This should print\n";
+	}
+
+	if (false) {
+		print "This should not print\n";
+	}
+
+	if (true) {
+		print "This, however, should print\n";
+	}
+
+}

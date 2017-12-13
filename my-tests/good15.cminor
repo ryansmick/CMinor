@@ -1,0 +1,12 @@
+a: array [6] integer;
+
+main: function integer () = {
+
+	i: integer;
+	for(i = 0; i < 6; i++) {
+		a[i] = 2^i;
+	}
+
+	return a[4];
+
+}
